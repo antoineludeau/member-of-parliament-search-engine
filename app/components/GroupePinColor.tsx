@@ -18,7 +18,7 @@ const GroupePinColor = ({
   };
 
   return (
-    <div className="mt-1 flex items-center gap-x-1.5">
+    <div className="mt-1 flex items-center">
       <div
         className={`flex-none rounded-full ${
           groupBgColorDictionnary[
