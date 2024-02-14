@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        modem: "#ff7d00",
+        ni: "#a4a4a4",
+        eco: "#89bd2c",
+        gdr: "#e04013",
+        hor: "#009fcb",
+        lfi: "#de0542",
+        lr: "#2a4294",
+        liot: "#d0d700",
+        rn: "#003a3f",
+        ren: "#fdc300",
+        soc: "#f1898f",
       },
     },
   },
