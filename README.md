@@ -1,3 +1,6 @@
+
+<img width="439" alt="Capture d’écran 2024-09-11 à 18 00 15" src="https://github.com/user-attachments/assets/e2c6a764-e05d-4572-a02a-5d082611a013">
+
 # Member of Parliament Search Engine
 
 A search engine app with the purpose of facilitating the filtering of a comprehensive list of the members of the French Parliament, allowing users to effortlessly navigate through profiles of individual members.
