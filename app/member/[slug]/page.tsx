@@ -7,9 +7,10 @@ import { APIParliamentResponseMember } from "@/app/types/parliament-member";
 const MemberPage = async ({
   params,
 }: {
-  params: { slug: string };
-}): Promise<JSX.Element> => {
-  const member = await getData(params.slug);
+  params: Promise<{ slug: string }>;
+}) => {
+  const { slug } = await params;
+  const member = await getData(slug);
   const memberInfoItems = formatMemberInfo(member);
   const memberMultiInfoItems = formatMultiInfo(member);
 
