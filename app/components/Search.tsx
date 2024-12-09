@@ -15,7 +15,7 @@ const Search = ({
   memberList,
 }: {
   memberList: ParliamentMember[];
-}): JSX.Element => {
+}) => {
   const [inputText, setInputText] = useState<string>("");
   const [searchResultIDs, setSearchResultIDs] = useState<number[]>([]);
   const [selectedPage, setSelectedPage] = useState<number>(0);

@@ -8,7 +8,7 @@ const SearchNavigation = ({
   setSelectedPage: (page: number) => void;
   numItems: number;
   itemsPerPage: number;
-}): JSX.Element => {
+}) => {
   const totalPages = Math.ceil(numItems / itemsPerPage);
 
   return (

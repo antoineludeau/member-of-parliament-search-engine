@@ -49,7 +49,7 @@ const MemberPage = async ({
               ))}
 
               {memberMultiInfoItems.map((multiInfoItem, index) => {
-                if (!multiInfoItem || multiInfoItem.values.length === 0) {
+                if (!multiInfoItem || multiInfoItem?.values?.length === 0) {
                   return;
                 } else {
                   return (

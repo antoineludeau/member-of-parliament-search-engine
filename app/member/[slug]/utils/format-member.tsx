@@ -36,9 +36,9 @@ export const formatMemberInfo = (
     },
     {
       title: "Parliamentary group",
-      value: `${member.groupe.organisme} (${member.groupe_sigle}) - ${
-        member.groupe.fonction
-      } since ${formatDate(member.groupe.debut_fonction)}`,
+      value: `${member.groupe?.organisme} (${member.groupe_sigle}) - ${
+        member.groupe?.fonction
+      } since ${formatDate(member.groupe?.debut_fonction)}`,
     },
     {
       title: "Seat in the hemicycle",
@@ -53,7 +53,7 @@ export const formatMemberInfo = (
 
 export const formatMultiInfo = (
   member: ParliamentMember
-): { title: string; values: { responsabilite: GroupAndDutyDetail }[] }[] => {
+): { title: string; values: { responsabilite: GroupAndDutyDetail }[] | undefined }[] => {
   return [
     {
       title: "Duties",

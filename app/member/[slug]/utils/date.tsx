@@ -1,4 +1,7 @@
-export const formatDate = (date: string) => {
+export const formatDate = (date: string | undefined) => {
+  if (!date) {
+    return;
+  }
   const dateObject = new Date(date);
 
   const formattedDate = dateObject.toLocaleDateString("en-EN", {

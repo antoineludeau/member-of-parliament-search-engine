@@ -30,8 +30,8 @@ export interface ParliamentMember {
   profession: string;
   place_en_hemicycle: string;
   url_nu_depute: string;
-  groupe: GroupAndDutyDetail;
-  responsabilites: MemberDutiesObj[];
+  groupe?: GroupAndDutyDetail;
+  responsabilites?: MemberDutiesObj[];
   responsabilites_extra_parlementaires: MemberExtraParliamentarianDutiesObj[];
   groupes_parlementaires: MemberParliamentarianGroupObj[];
 }

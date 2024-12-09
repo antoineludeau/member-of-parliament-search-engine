@@ -8,7 +8,7 @@ const MembersList = ({
 }: {
   members: ParliamentMember[];
   isNoSearchResults: boolean;
-}): JSX.Element => {
+}) => {
   return (
     <ul role="list" className="divide-y divide-gray-100 w-full max-w-md">
       {isNoSearchResults && (

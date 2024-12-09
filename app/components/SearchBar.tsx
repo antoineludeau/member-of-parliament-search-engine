@@ -6,7 +6,7 @@ const SearchBar = ({
 }: {
   inputText: string;
   setInputText: ChangeEventHandler<HTMLInputElement>;
-}): JSX.Element => {
+}) => {
   return (
     <div className="flex items-center w-full max-w-sm p-5">
       <div className="relative w-full">

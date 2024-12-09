@@ -2,7 +2,7 @@ const GroupePinColor = ({
   groupAcronym,
 }: {
   groupAcronym: string;
-}): JSX.Element => {
+}) => {
   const groupBgColorDictionnary = {
     MODEM: "bg-modem",
     NI: "bg-ni",

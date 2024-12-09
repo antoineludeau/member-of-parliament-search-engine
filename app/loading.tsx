@@ -1,4 +1,4 @@
-const Loading = (): JSX.Element => {
+const Loading = () => {
   return (
     <div className="flex flex-col items-center">
       <div role="status">

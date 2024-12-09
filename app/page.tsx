@@ -1,7 +1,7 @@
 import Search from "./components/Search";
 import type { APIParliamentResponse } from "./types/parliament-member";
 
-const Home = async (): Promise<JSX.Element> => {
+const Home = async () => {
   const memberList = await getData();
 
   return <Search memberList={memberList} />;
