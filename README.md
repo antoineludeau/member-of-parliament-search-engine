@@ -2,6 +2,10 @@
 
 A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**, **Typescript 5** and **Minisearch 7**. with the purpose of facilitating the filtering of the members of the French Parliament, allowing users to effortlessly navigate through profiles of individual members.
 
+<p align="center">
+  <img width="430" alt="Capture d’écran 2024-12-09 à 19 21 32" src="https://github.com/user-attachments/assets/e2025318-326a-4ff1-b705-b5d70cfd9866">
+</p>
+
 ## Table of Contents
 
 - [Features](#features)
@@ -9,6 +13,7 @@ A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Development Server](#running-the-development-server)
+  - [Using Docker](#using-docker)
 - [Folder Structure](#folder-structure)
 - [License](#license)
 
@@ -17,7 +22,9 @@ A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**
 - Built with **Next.js 15** for fast and SEO-friendly rendering
 - Styled with **Tailwind CSS 3**, a utility-first CSS framework
 - Leveraging **Minisearch 7**, an in-memory full-text search engine
-- Developed using **TypeScript** 5 for robust type checking and maintainability
+- Developed using **TypeScript 5** for robust type checking and maintainability
+- Modular and reusable components for easier maintenance
+- Dockerized for quick local deployment
 
 ## Getting Started
 
@@ -26,7 +33,10 @@ A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**
 Before you begin, make sure you have the following installed on your machine:
 
 - **Node.js** (v18.18.0 or later) – [Download Node.js](https://nodejs.org/)
-- **npm** or **yarn** – comes with Node.js or can be installed separately
+- **npm** – comes with Node.js or can be installed separately
+
+If you want to deploy using docker and docker compose : 
+- **Docker** (v20.10 or later) – [Download Docker](https://www.docker.com/)
 
 ### Installation
 
@@ -39,26 +49,34 @@ Before you begin, make sure you have the following installed on your machine:
 
 2. **Install dependencies**
 
-If you're using npm:
+Using npm:
   ```bash
   npm install
   ```
 
-If you're using yarn:
-  ```bash
-  yarn install
-  ```
+This step is not needed for a docker deployment
 
 ### Running the Development Server
 
 Once all dependencies are installed, you can start the development server:
   ```bash
   npm run dev
-  # or
-  yarn dev
   ```
 
 Open http://localhost:3000 in your browser to see the running application.
+
+This step is not needed for a docker deployment
+
+### Using Docker
+
+You can also run the application locally using Docker for a containerized environment.
+
+Simply run the command : 
+  ```bash
+  docker compose up --build -d
+  ```
+
+Open http://localhost:3000 in your browser to view the application.
 
 ## Folder structure
 
