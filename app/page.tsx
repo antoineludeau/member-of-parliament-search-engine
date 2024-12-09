@@ -20,7 +20,6 @@ async function getData() {
 
   
   const responseJson: APIParliamentResponse = await res.json();
-  console.log('responseJson', responseJson);
   const memberList = responseJson.deputes.map((member) => member.depute);
   return memberList;
 }
