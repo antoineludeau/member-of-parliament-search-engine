@@ -2,6 +2,10 @@
 
 A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**, **Typescript 5** and **Minisearch 7**. with the purpose of facilitating the filtering of the members of the French Parliament, allowing users to effortlessly navigate through profiles of individual members.
 
+<p align="center">
+  <img width="430" alt="Capture d’écran 2024-12-09 à 19 21 32" src="https://github.com/user-attachments/assets/e2025318-326a-4ff1-b705-b5d70cfd9866">
+</p>
+
 ## Table of Contents
 
 - [Features](#features)
@@ -26,7 +30,7 @@ A search engine app built using **Next.js 15**, **React 19**, **Tailwind CSS 3**
 Before you begin, make sure you have the following installed on your machine:
 
 - **Node.js** (v18.18.0 or later) – [Download Node.js](https://nodejs.org/)
-- **npm** or **yarn** – comes with Node.js or can be installed separately
+- **npm** – comes with Node.js or can be installed separately
 
 ### Installation
 
@@ -39,14 +43,9 @@ Before you begin, make sure you have the following installed on your machine:
 
 2. **Install dependencies**
 
-If you're using npm:
+Using npm:
   ```bash
   npm install
-  ```
-
-If you're using yarn:
-  ```bash
-  yarn install
   ```
 
 ### Running the Development Server
@@ -54,8 +53,6 @@ If you're using yarn:
 Once all dependencies are installed, you can start the development server:
   ```bash
   npm run dev
-  # or
-  yarn dev
   ```
 
 Open http://localhost:3000 in your browser to see the running application.
