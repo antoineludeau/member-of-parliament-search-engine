@@ -36,7 +36,9 @@ Before you begin, make sure you have the following installed on your machine:
 - **npm** – comes with Node.js or can be installed separately
 
 If you want to deploy using docker and docker compose : 
-- **Docker** (v20.10 or later) – [Download Docker](https://www.docker.com/)
+- **Docker** (v20.10 or later)
+- **Docker Compose** (v2.0 or later)
+The easiest and recommended way to get Docker and Docker Compose is to install [Docker Desktop](https://www.docker.com/products/docker-desktop/). It includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites.
 
 ### Installation
 
